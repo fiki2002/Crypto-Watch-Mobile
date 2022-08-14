@@ -15,7 +15,7 @@ class SplashScreen extends StatelessWidget {
     return AnimatedSplashScreen(
       splash: SvgPicture.asset('assets/images/cryptowatch_logo_white.svg'),
       backgroundColor: Primary1,
-      nextScreen: BottomNavigationScreen(),
+      nextScreen: SignUpScreen(),
       duration: 1000,
       splashTransition: SplashTransition.scaleTransition,
       pageTransitionType: PageTransitionType.fade,
